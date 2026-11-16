@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nxmirror-db"
+version = "1.0.0"
+description = "Official Python SDK for the NxMirror DB platform — cloud SQLite, NoSQL documents, and hybrid file storage over a clean HTTP API."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [{ name = "crossberry-in" }]
+keywords = ["nxmirror", "nxdb", "database", "sqlite", "nosql", "storage", "sdk", "cloud"]
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Database",
+  "Topic :: Software Development :: Libraries :: Python Modules",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://nxmirror.netlify.app"
+Documentation = "https://nxmirror.netlify.app/docs"
+Repository = "https://github.com/crossberry-in/nxmirror-db-python"
+
+[tool.setuptools]
+packages = ["nxmirror_db"]
